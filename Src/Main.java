@@ -42,6 +42,7 @@ public class Main {
             sum += prices[i] * counts[i];
         }
         boolean doBonus = sum >= MIN_COST_FOR_BONUS;
+        sum = 0;
         for (int i = 0; i < products.length; i++) {
             if (counts[i] != 0) {
 
